@@ -24,9 +24,10 @@ panel.classList.add('header');
 panelDate.classList.add('date');
 panelTemp.classList.add('temp');
 
-// const headerContainer = document.querySelector(".header-container");
-//     headerContainer.appendChild(panel);
+const headerContainer = document.querySelector(".header-container");
+    headerContainer.appendChild(panel);
 
+headerContainer.appendChild(panel);
 panel.appendChild(panelDate);
 panel.appendChild(panelTitle);
 panel.appendChild(panelTemp);

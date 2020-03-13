@@ -11,7 +11,6 @@
 axios
 .get('https://lambda-times-backend.herokuapp.com/topics')
 .then(data => {
-    console.log(data);
 
     const topicsArray = data.data.topics;
     const topicsDiv = document.querySelector('.topics');
